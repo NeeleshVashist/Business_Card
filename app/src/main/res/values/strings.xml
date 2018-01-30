@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Business_Card</string>
+    <string name="mgw">Markanday Glass Works</string>
+    <string name="deals">Deals in Window Glass, Mirrors etc.</string>
+    <string name="time">9am to 7pm (Mon-Sat)</string>
+    <string name="email">email@mail.com</string>
+    <string name="add">Address,City,State</string>
+
+</resources>

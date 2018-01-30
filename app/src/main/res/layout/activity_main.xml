@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.neeleshvashist.business_card.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/mgw" />
+    <TextView
+        android:id="@+id/mgw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view1"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#cdcdce"
+        android:gravity="center"
+        android:text="@string/mgw"
+        android:textColor="#3b3b3b"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/mgw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mgw1"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:text="@string/deals"
+        android:textColor="#3b3b3b"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mgw"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="42dp"
+        android:maxWidth="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/loc1" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_view2"
+        android:layout_marginBottom="9dp"
+        android:layout_toEndOf="@+id/image_view2"
+        android:layout_toRightOf="@+id/image_view2"
+        android:paddingLeft="8dp"
+        android:text="@string/add"
+        android:autoLink="map" />
+
+    <ImageView
+        android:id="@+id/image_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image_view2"
+        android:layout_alignStart="@+id/image_view2"
+        android:layout_below="@+id/image_view2"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="42dp"
+        android:maxWidth="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lock" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text2"
+        android:layout_alignStart="@+id/text2"
+        android:layout_alignTop="@+id/image_view3"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp"
+        android:text="@string/time" />
+
+    <ImageView
+        android:id="@+id/image_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image_view3"
+        android:layout_alignStart="@+id/image_view3"
+        android:layout_below="@+id/image_view3"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="42dp"
+        android:maxWidth="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/emial" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_view4"
+        android:layout_marginBottom="11dp"
+        android:layout_toEndOf="@+id/image_view4"
+        android:layout_toRightOf="@+id/image_view4"
+        android:paddingLeft="8dp"
+        android:text="@string/email"
+        android:autoLink="email" />
+
+</RelativeLayout>
